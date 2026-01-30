@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "project1-bogdanov-artem-m25-555"
+name = "project1_evsikov_valery_m25_555"
 version = "0.1.0"
-description = ""
+description = "Text labyrinth game"
 authors = ["Евсиков Валерий <vevsickov@yandex.ru>"]
 readme = "README.md"
 
@@ -22,3 +22,11 @@ ruff = "^0.14.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.ruff]
+line-length = 150
+target-version = "py311"
+exclude = ["venv", ".venv", "dist", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []

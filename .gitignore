@@ -1,2 +1,14 @@
 .venv/
 dist/
+
+.idea/
+.vscode/
+*.swp
+*~
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
