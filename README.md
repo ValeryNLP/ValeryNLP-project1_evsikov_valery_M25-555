@@ -73,3 +73,7 @@ make lint
 ## Автор
 
 Евсиков Валерий М25-555
+
+## Демонстрация
+
+[Демо](https://asciinema.org/a/bhkJz5JR8pYwJKGp)
